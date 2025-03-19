@@ -1724,7 +1724,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 64
   m_IsActive: 1
 --- !u!215 &701254394
 ReflectionProbe:
@@ -1737,7 +1737,7 @@ ReflectionProbe:
   serializedVersion: 2
   m_Type: 0
   m_Mode: 1
-  m_RefreshMode: 1
+  m_RefreshMode: 0
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
@@ -4271,7 +4271,7 @@ Transform:
   m_GameObject: {fileID: 1611415028}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 78.1, y: 20.006779, z: 80.19}
+  m_LocalPosition: {x: 76.93, y: 20.006779, z: 77.08}
   m_LocalScale: {x: 40, y: 40, z: 40}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4646,6 +4646,84 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.023705151, y: 0.02313841, z: 0.0408479}
   m_Center: {x: -0.00036516142, y: 0.00008175508, z: 0.010423924}
+--- !u!1 &1917955824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1917955826}
+  - component: {fileID: 1917955825}
+  m_Layer: 0
+  m_Name: Light Probe Group_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!220 &1917955825
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917955824}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1, y: 1.4894633, z: -0.082409665}
+  - {x: 1, y: 1.80505, z: -1}
+  - {x: 1, y: -1, z: 0.3946389}
+  - {x: 1, y: -1, z: -0.6060057}
+  - {x: -1, y: 1.5981674, z: 0.37075683}
+  - {x: -0.01841129, y: 1.7238526, z: -1}
+  - {x: -1, y: 0.14994015, z: 0.37075683}
+  - {x: -1, y: -1, z: -0.16756994}
+  - {x: -55.865517, y: -15.940874, z: -52.608654}
+  - {x: -55.865517, y: -15.940874, z: -52.608654}
+  - {x: -55.865517, y: -15.940874, z: -52.608654}
+  - {x: -1, y: 1, z: 0.37075683}
+  - {x: 0.050452486, y: 1, z: 0.3946389}
+  - {x: 1, y: 1, z: -1}
+  - {x: 0.3652364, y: 1, z: -1}
+  - {x: -1, y: -1, z: 0.37075683}
+  - {x: 0.3652364, y: -1, z: -1}
+  - {x: 2.3652363, y: -1, z: -1}
+  - {x: 0.050452486, y: 1.4894633, z: 0.3946389}
+  - {x: 0.3652364, y: 1.7238526, z: -1}
+  - {x: 1, y: 1, z: 0.3946389}
+  - {x: 1, y: 1.4894633, z: 0.3946389}
+  - {x: 0.050452486, y: 1, z: 1}
+  - {x: 0.050452486, y: 1.4894633, z: 1}
+  - {x: 1, y: -1, z: 1}
+  - {x: 1, y: -1, z: -0.0006445409}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1.4894633, z: 1}
+  - {x: -1, y: 1.5981674, z: 1}
+  - {x: -1, y: 0.14994015, z: 1}
+  - {x: -1, y: 1, z: 1}
+  - {x: -1, y: -1, z: 1}
+  - {x: -1, y: 1, z: -1}
+  - {x: -1, y: -1, z: -1}
+  - {x: 1, y: -1, z: -1}
+  - {x: -1, y: 1.7238526, z: -1}
+  m_Dering: 1
+--- !u!4 &1917955826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917955824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 77.1, y: 22, z: 80.57}
+  m_LocalScale: {x: 1.3801, y: 1.3801, z: 1.5314969}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1919481509 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2041350483531606577, guid: 2ccd3698b690ef5428e40a3784e68cea,
@@ -4848,7 +4926,7 @@ Transform:
   m_GameObject: {fileID: 2138278130}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.64, z: 0}
+  m_LocalPosition: {x: -6.09, y: 0.64, z: -2.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4945,6 +5023,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 915149616}
   - {fileID: 920986592}
+  - {fileID: 1917955826}
   - {fileID: 1641900517}
   - {fileID: 1420797953}
   - {fileID: 701254398}
