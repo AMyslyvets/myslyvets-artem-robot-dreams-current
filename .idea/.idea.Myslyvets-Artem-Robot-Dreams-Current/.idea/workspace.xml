@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d276a5-31a5-4993-a2de-a2bc659c891a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Char.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Char.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson8/TestMaterial_Lesson8/Universal Render Pipeline_Simple Lit Grass 33.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson8/TestMaterial_Lesson8/Universal Render Pipeline_Simple Lit Grass 33.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Explosion.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/Destructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/Destructor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/InputController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 7/Source/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 7/Source/InputController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +108,7 @@
       <workItem from="1740441645301" duration="25068000" />
       <workItem from="1741172007886" duration="128000" />
       <workItem from="1742343722430" duration="1122000" />
-      <workItem from="1742452643203" duration="4434000" />
+      <workItem from="1742452643203" duration="14996000" />
     </task>
     <servers />
   </component>

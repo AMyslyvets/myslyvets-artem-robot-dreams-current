@@ -99,7 +99,7 @@ namespace PhysX
             
             _actionMap.Disable();
         }
-
+        
         private void OnDestroy()
         {
             _moveAction.performed -= MovePerformedHandler;
