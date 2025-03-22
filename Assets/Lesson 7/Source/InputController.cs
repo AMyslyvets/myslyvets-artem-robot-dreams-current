@@ -15,6 +15,8 @@ namespace Lesson7
         [SerializeField] private string _moveName;
         [SerializeField] private string _lookAroundName;
         [SerializeField] private string _cameraLockName;
+        [SerializeField] private CursorLockMode _enabledCursorMode;
+        [SerializeField] private CursorLockMode _disabledCursorMode;
 
         private InputAction _moveAction;
         private InputAction _lookAroundAction;
@@ -24,6 +26,9 @@ namespace Lesson7
 
         private void OnEnable()
         {
+            Cursor.visible = false;
+            Cursor.lockState = _enabledCursorMode;
+            
             _inputActionAsset.Enable();
             InputActionMap actionMap = _inputActionAsset.FindActionMap(_mapName);
             _moveAction = actionMap[_moveName];
@@ -43,6 +48,9 @@ namespace Lesson7
         private void OnDisable()
         {
             _inputActionAsset.Disable();
+            
+            Cursor.visible = true;
+            Cursor.lockState = _disabledCursorMode;
         }
 
         private void OnDestroy()
