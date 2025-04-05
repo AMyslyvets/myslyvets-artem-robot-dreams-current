@@ -6,17 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d276a5-31a5-4993-a2de-a2bc659c891a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Char.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Char.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson8/TestMaterial_Lesson8/Universal Render Pipeline_Simple Lit Grass 33.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson8/TestMaterial_Lesson8/Universal Render Pipeline_Simple Lit Grass 33.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/Destructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/Destructor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Source/InputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 7/Source/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 7/Source/InputController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/5c/92b8ec18/Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/DestructableSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/ExplosionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/LineController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.11.2/InputSystem/Actions/InputActionMap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.11.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -108,7 +110,10 @@
       <workItem from="1740441645301" duration="25068000" />
       <workItem from="1741172007886" duration="128000" />
       <workItem from="1742343722430" duration="1122000" />
-      <workItem from="1742452643203" duration="14996000" />
+      <workItem from="1742452643203" duration="15672000" />
+      <workItem from="1742634687383" duration="3979000" />
+      <workItem from="1742799668721" duration="14936000" />
+      <workItem from="1743870959782" duration="4208000" />
     </task>
     <servers />
   </component>
