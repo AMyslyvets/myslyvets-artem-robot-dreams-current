@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 107908770087212936}
   - component: {fileID: 8806655188095579293}
-  - component: {fileID: 1927217585619828774}
+  - component: {fileID: 2712248781230346175}
   m_Layer: 0
   m_Name: MullzePoint
   m_TagString: Untagged
@@ -137,7 +137,7 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!114 &1927217585619828774
+--- !u!114 &2712248781230346175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,10 +146,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 838398586887641272}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0e9917a5ad51a84facd06dbd5e19b59, type: 3}
+  m_Script: {fileID: 11500000, guid: e2b71491309ec42469b8edb890e2a510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _destructor: {fileID: 4459204435211981688}
+  _destructor: {fileID: 2655140177456542364}
   _lineRenderer: {fileID: 8806655188095579293}
   _muzzleTransform: {fileID: 107908770087212936}
   _rayDuration: 0.1
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 6262458168172207355}
   - component: {fileID: 2224988591273321421}
   - component: {fileID: 5159749990202037067}
-  - component: {fileID: 9015510005745303524}
+  - component: {fileID: 5218106749349201202}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -459,7 +459,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &9015510005745303524
+--- !u!114 &5218106749349201202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5798728748017048419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c95bd63317c776489ff6a838110600a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f84431e36f66c146921b078ac4c342b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _pitchAnchor: {fileID: 5160491236225146823}
@@ -570,8 +570,8 @@ GameObject:
   - component: {fileID: 4132054688352494243}
   - component: {fileID: 4954131389123001563}
   - component: {fileID: 7702960399013586862}
-  - component: {fileID: 9113472214548224641}
-  - component: {fileID: 4459204435211981688}
+  - component: {fileID: 3981511360022229351}
+  - component: {fileID: 2655140177456542364}
   - component: {fileID: 2510587457418924493}
   m_Layer: 0
   m_Name: Char
@@ -673,7 +673,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: -2, y: 0, z: 0}
---- !u!114 &9113472214548224641
+--- !u!114 &3981511360022229351
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -682,12 +682,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7519819315050732250}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee919aa3bcf8b534e9dd5920072b5c5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 535bfd248be4b4240a094b02dcf0f705, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _characterController: {fileID: 7702960399013586862}
-  _speed: 5
---- !u!114 &4459204435211981688
+  _speed: 6
+--- !u!114 &2655140177456542364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7519819315050732250}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0a19d4050f243479452c7c21bf92e4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f87e1ceaff9f97468fe6c31657423cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _destructableSystem: {fileID: 0}
@@ -704,15 +704,15 @@ MonoBehaviour:
   _rayDistance: 50
   _rayMask:
     serializedVersion: 2
-    m_Bits: 123
+    m_Bits: 59
   _explsionMask:
     serializedVersion: 2
-    m_Bits: 123
+    m_Bits: 59
   _explosionController: {fileID: 3682611074924466435, guid: 6d2e27426abfec643bc3f3ae907903ec,
     type: 3}
   _explosionRadius: 1.5
-  _explosionForce: 15000
-  _verticalOffset: 0
+  _explosionForce: 700
+  _verticalOffset: 0.1
 --- !u!114 &2510587457418924493
 MonoBehaviour:
   m_ObjectHideFlags: 0
