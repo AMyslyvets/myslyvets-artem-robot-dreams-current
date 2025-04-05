@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d276a5-31a5-4993-a2de-a2bc659c891a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Myslyvets-Artem-Robot-Dreams-Current/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/New Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneBottom.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideXY.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneSideYZ.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lesson 12/Physics/Materials/Sandstone/SandstoneTop.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/DestructorMy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/DestructorMy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Fiz.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HomeWork/HomeWork/HomeWork_Lesson12/Fiz.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1742452643203" duration="15672000" />
       <workItem from="1742634687383" duration="3979000" />
       <workItem from="1742799668721" duration="14936000" />
-      <workItem from="1743870959782" duration="4208000" />
+      <workItem from="1743870959782" duration="8104000" />
     </task>
     <servers />
   </component>
