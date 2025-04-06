@@ -29,12 +29,12 @@ namespace Fiz
 
         protected void OnEnable()
         {
-            PhysX.InputController.OnPrimaryInput += PrimaryInputHandler;
+            Fiz.InputController.OnPrimaryInput += PrimaryInputHandler;
         }
 
         protected void OnDisable()
         {
-            PhysX.InputController.OnPrimaryInput -= PrimaryInputHandler;
+            Fiz.InputController.OnPrimaryInput -= PrimaryInputHandler;
         }
 
         protected virtual void PrimaryInputHandler()

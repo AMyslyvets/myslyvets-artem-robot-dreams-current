@@ -20,12 +20,12 @@ namespace Fiz
         
         private void OnEnable()
         {
-            PhysX.InputController.OnSecondaryInput += SecondaryInputHandler;
+            Fiz.InputController.OnSecondaryInput += SecondaryInputHandler;
         }
 
         private void OnDisable()
         {
-            PhysX.InputController.OnSecondaryInput -= SecondaryInputHandler;
+            Fiz.InputController.OnSecondaryInput -= SecondaryInputHandler;
         }
 
         private void FixedUpdate()

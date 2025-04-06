@@ -35,12 +35,12 @@ namespace Fiz
 
         private void OnEnable()
         {
-            PhysX.InputController.OnGrenadeInput += GrenadeInputHandler;
+           Fiz.InputController.OnGrenadeInput += GrenadeInputHandler;
         }
         
         private void OnDisable()
         {
-            PhysX.InputController.OnGrenadeInput -= GrenadeInputHandler;
+           Fiz.InputController.OnGrenadeInput -= GrenadeInputHandler;
         }
 
         private void GrenadeInputHandler()
