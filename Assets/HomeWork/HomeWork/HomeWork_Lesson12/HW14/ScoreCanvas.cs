@@ -22,7 +22,7 @@ namespace Fiz
         {
             _scoreSystem.OnDataUdpated += DataUpdateHandler;
 
-            PhysX.InputController.OnScoreInput += ScoreInputHandler;
+            Fiz.InputController.OnScoreInput += ScoreInputHandler;
             
             _updateRequested = true;
         }
