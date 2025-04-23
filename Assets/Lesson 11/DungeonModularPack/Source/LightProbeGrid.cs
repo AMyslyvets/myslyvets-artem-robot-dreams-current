@@ -10,6 +10,7 @@ public class LightProbeGrid : MonoBehaviour
     [ContextMenu("Generate Grid")]
     private void GenerateGrid()
     {
+        #if UNITY_EDITOR
         Vector3Int subResolution = _resolution - Vector3Int.one;
 
         int mainGridCount = _resolution.x * _resolution.y * _resolution.z;
@@ -53,6 +54,7 @@ public class LightProbeGrid : MonoBehaviour
         }
         
         _lightProbeGroup.probePositions = probes;
+        #endif
     }
 
     private void OnDrawGizmosSelected()

@@ -43,7 +43,7 @@ namespace Dummies
         
         public float HealthValue01 => HealthValue / (float)_maxHealth;
         public int MaxHealthValue => _maxHealth;
-        public CharacterController CharacterController => _characterController;
+        public Collider Collider => _characterController;
 
         protected virtual void Awake()
         {

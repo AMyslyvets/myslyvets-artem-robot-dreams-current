@@ -13,10 +13,12 @@ namespace Shooting
         [SerializeField] private float _aimSpeed;
 
         private Vector3 _hitPoint;
+        private Vector3 _collisionPoint;
         private float _aimValue;
         private float _targetAimValue;
 
         public Vector3 AimPoint => _hitPoint;
+        public Vector3 CollisionPoint => _collisionPoint;
         
         private void OnEnable()
         {
@@ -32,9 +34,16 @@ namespace Shooting
         {
             Ray ray = new Ray(_cameraTransform.position, _cameraTransform.forward);
             _hitPoint = _cameraTransform.position + _cameraTransform.forward * _rayDistance;
+            _collisionPoint = _hitPoint;
             if (Physics.Raycast(ray, out RaycastHit hitInfo, _rayDistance, _rayMask))
                 _hitPoint = hitInfo.point;
             _gunTransform.LookAt(_hitPoint);
+            
+            if (Physics.Raycast(_gunTransform.position, _gunTransform.forward, out RaycastHit collisionInfo, _rayDistance,
+                    _rayMask, QueryTriggerInteraction.Ignore))
+            {
+                _collisionPoint = collisionInfo.point;
+            }
         }
 
         private void Update()

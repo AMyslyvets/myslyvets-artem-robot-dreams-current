@@ -12,6 +12,10 @@ public class ProfilerManager : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
     private static void BeginProfiling()
     {
+        #if PROFILER_ENABLED
+        Debug.Log("ProfilerManager.BeginProfiling");
+        #endif
+        
 #if !UNITY_EDITOR && DEVELOPMENT_BUILD && PROFILER_ENABLED
         //Add config to profile or not application start
         string directory = Path.Combine(Application.persistentDataPath, "profiler-captures");

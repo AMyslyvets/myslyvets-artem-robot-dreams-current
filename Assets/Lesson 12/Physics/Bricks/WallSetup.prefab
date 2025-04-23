@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5678415024647538278}
-  - component: {fileID: 6974546684580148991}
+  - component: {fileID: 2233389922588439227}
   m_Layer: 0
   m_Name: WallSetup
   m_TagString: Untagged
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 3630521176313804494}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6974546684580148991
+--- !u!114 &2233389922588439227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6821812113925639958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c67f671bd86f1764383d06575f3d6a00, type: 3}
+  m_Script: {fileID: 11500000, guid: 76cac83512ba31942890f477667c5cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _emissionName: _EmissionColor
@@ -113,7 +113,11 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  _materials: []
+  _materials:
+  - {fileID: 2100000, guid: 83cc56ca442f232489ea5a5b9c946b94, type: 2}
+  - {fileID: 2100000, guid: b2f9dd05faaef3141abaa971d98260c6, type: 2}
+  - {fileID: 2100000, guid: 2af624bd78a89dc439ff874a611d52a8, type: 2}
+  - {fileID: 2100000, guid: a87606413f672634785d84c8949ee8eb, type: 2}
 --- !u!1001 &2940312324319239047
 PrefabInstance:
   m_ObjectHideFlags: 0

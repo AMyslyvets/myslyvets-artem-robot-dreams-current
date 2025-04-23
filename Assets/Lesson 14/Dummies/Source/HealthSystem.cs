@@ -34,7 +34,7 @@ namespace Dummies
             for (int i = 0; i < _healths.Length; ++i)
             {
                 Health health = _healths[i];
-                _charactersHealth.Add(health.CharacterController, health);
+                _charactersHealth.Add(health.Collider, health);
                 health.OnDeath += () => CharacterDeathHandler(health);
             }
         }

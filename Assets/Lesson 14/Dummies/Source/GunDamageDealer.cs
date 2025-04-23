@@ -21,11 +21,6 @@ namespace Dummies
 
         private void GunHitHandler(Collider collider)
         {
-            /*Health health = collider.GetComponent<Health>();
-            if (health != null)
-            {
-                health.TakeDamage(_damage);
-            }*/
             if (_healthSystem.GetHealth(collider, out Health health))
                 health.TakeDamage(_damage);
             OnHit?.Invoke(health ? 1 : 0);

@@ -1,5 +1,7 @@
 using System.Text;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace Lesson8
@@ -15,6 +17,7 @@ namespace Lesson8
         [ContextMenu("Test")]
         public void Test()
         {
+            #if UNITY_EDITOR
             _billboardAsset = new BillboardAsset();
             _billboardAsset.SetVertices(new[]
                 { new Vector2(0f, 0f), new Vector2(1f, 0f), new Vector2(1f, 1f), new Vector2(0f, 1f) });
@@ -35,6 +38,7 @@ namespace Lesson8
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
             }
+            #endif
         }
 
         [ContextMenu("Set geometry")]

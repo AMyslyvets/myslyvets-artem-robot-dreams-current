@@ -55,17 +55,15 @@ namespace PhysX
 
                 Collider[] colliders = Physics.OverlapSphere(_hitPoint, _explosionRadius, _explsionMask);
 
-                /*HashSet<Rigidbody> _targets = new HashSet<Rigidbody>();
+                HashSet<Rigidbody> _targets = new HashSet<Rigidbody>();
                 
                 for (int i = 0; i < colliders.Length; ++i)
                 {
                     Rigidbody rigidbody = colliders[i].attachedRigidbody;
                     _ = _targets.Add(rigidbody);
-                }*/
+                }
 
-                //foreach (Rigidbody rigidbody in _targets)
-                
-                /*
+                foreach (Rigidbody rigidbody in _targets)
                 {
                     if (rigidbody == null)
                         continue;
@@ -74,31 +72,6 @@ namespace PhysX
                         direction.normalized * _explosionForce * Mathf.Clamp01(1f - direction.magnitude * _radiusReciprocal),
                         ForceMode.Impulse);
                 }
-                */
-                
-                foreach (Collider collider in colliders)
-                {
-                    Rigidbody rigidbody = collider.attachedRigidbody;
-                    if (rigidbody == null)
-                        continue;
-
-                    // Вычисляем направление от эпицентра
-                    
-                    //Vector3 direction = (rigidbody.position - _hitPoint).normalized;
-                    Vector3 direction = (rigidbody.position - (_hitPoint + Vector3.up * _verticalOffset)).normalized;
-
-                    // Вычисляем расстояние до центра взрыва
-                    float distance = Vector3.Distance(rigidbody.position, _hitPoint);
-
-                    // Рассчитываем силу взрыва (чем дальше от центра, тем слабее)
-                    float forceMultiplier = 1f - Mathf.Clamp01(distance / _explosionRadius);
-                    float appliedForce = _explosionForce * forceMultiplier;
-
-                    // Применяем силу взрыва
-                    rigidbody.AddForce(direction * appliedForce, ForceMode.Impulse);
-                }
-                
-                
                 
                 Instantiate(_explosionController, _hitPoint, Quaternion.identity).Play();
             }

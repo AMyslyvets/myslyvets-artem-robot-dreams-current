@@ -764,6 +764,8 @@ MonoBehaviour:
   _reloadName: Reload
   _escapeName: Escape
   _jumpName: Jump
+  _enabledCursorMode: 0
+  _disabledCursorMode: 0
 --- !u!4 &369151138
 Transform:
   m_ObjectHideFlags: 0
@@ -998,9 +1000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e298f569e84c4554a9d3b7041a7f8377, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pitchAnchor: {fileID: 1569011662}
-  _jawAnchor: {fileID: 867756408}
-  _sensitivity: 0.1
+  _pitchAnchor: {fileID: 867756408}
+  _yawAnchor: {fileID: 1569011662}
+  _sensitivity: 30
 --- !u!114 &466899050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1864,7 +1866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 867756408}
   m_Layer: 0
-  m_Name: CameraYawAnchor
+  m_Name: CameraPitchAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2406,7 +2408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294247957}
   m_Layer: 0
-  m_Name: CameraPitchAnchor
+  m_Name: CameraYawAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
