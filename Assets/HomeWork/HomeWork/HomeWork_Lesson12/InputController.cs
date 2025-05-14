@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace Fiz
 {
@@ -188,7 +189,7 @@ namespace Fiz
         
         private void EscapePerformedHandler(InputAction.CallbackContext context)
         {
-            OnEscape?.Invoke();
+            SceneManager.LoadScene("FizLobby", LoadSceneMode.Single);
         }
     }
 }

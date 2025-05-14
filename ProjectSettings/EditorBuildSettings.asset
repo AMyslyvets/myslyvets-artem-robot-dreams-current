@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Lesson 1/Scenes/SampleScene 0.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Lesson 1/Scenes/New Scene.unity
@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lesson 15/MainMenu/Scenes/Gameplay.unity
     guid: 4b58fce6527d61040b38afc2a7f4a5f5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 18/StateMachine/Scenes/DefinetlyNotABoot.unity
     guid: 8e0fe552cd645f643a1bf24ad796917f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 18/StateMachine/Scenes/Lobby.unity
     guid: 5a56ebacedde0dd4a9ef15b0ef869ee3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 18/StateMachine/Scenes/StateMachine.unity
     guid: 56fb68f30b8622e47a3d63d6970b089a
   - enabled: 0
@@ -47,45 +47,51 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lesson 20/DefendFlag/Scenes/DefendFlag.unity
     guid: 66250d2397ad7874087c7f46e63c4b91
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 21/Inventory/Scenes/Boot.unity
     guid: 07f8e7c6303ab1d4eab26f144422b181
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 21/Inventory/Scenes/Lobby.unity
     guid: 5e94eb3d9a82262448d5e6358b3b5d2a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 21/Inventory/Scenes/TrainingRange.unity
     guid: 270cd0789a76c0945aacbbd423da08c0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 21/Inventory/Scenes/DefendFlag.unity
     guid: ac09d95be2d2a2e499631ff42c24d90a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 21/Inventory/Scenes/Recon.unity
     guid: 48af629b245167544ab3803c0979b651
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 23/Animation/Scenes/Boot.unity
     guid: b1ea59665ca47ee4782231e8fa9fd1d1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 23/Animation/Scenes/Lobby.unity
     guid: 3a98b2de2f5532448a71702d35aceccf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 23/Animation/Scenes/TrainingRange.unity
     guid: 7e77461657ffa1f47a4780b2b5cd36ef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 23/Animation/Scenes/DefendFlag.unity
     guid: 6b8b44f4319734b4283bedfa89535620
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 23/Animation/Scenes/Recon.unity
     guid: 8093588cbd455b84084721f976b30caf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 25/AudioSystem/Scenes/Lobby.unity
     guid: bbc2d759f3d041c4e9c92c9b6db4d8fa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 25/AudioSystem/Scenes/TrainingRange.unity
     guid: 48096c9abad925046804c7010e651d2c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lesson 25/AudioSystem/Scenes/BehaviourTree.unity
     guid: 096e6538e31f9364798fd682b2c77794
+  - enabled: 1
+    path: Assets/HomeWork/HomeWork/HomeWork_Lesson12/HW15/Scenes/Fiz.unity
+    guid: 556bce3c7387c3b4f809c22dfdf4dd3f
+  - enabled: 1
+    path: Assets/HomeWork/HomeWork/HomeWork_Lesson12/HW15/Scenes/FizLobby.unity
+    guid: 0eb0733b3e6682d4cbab094b6914ebdf
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 2032b133dae6d3845a32d808b8635d3f,
       type: 2}

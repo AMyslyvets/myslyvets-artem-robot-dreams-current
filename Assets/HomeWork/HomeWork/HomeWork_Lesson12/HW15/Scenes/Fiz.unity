@@ -4151,18 +4151,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1789843280}
   m_SourcePrefab: {fileID: 100100000, guid: dc70ac98d1238fb46bf5b0eca560e355, type: 3}
---- !u!114 &338524231 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6974546684580148991, guid: f8d9df239381e1245a9d1ece46d8921e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1035835264}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c67f671bd86f1764383d06575f3d6a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &338524232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5678415024647538278, guid: f8d9df239381e1245a9d1ece46d8921e,
@@ -4354,7 +4342,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _destructableSystem
       value: 
-      objectReference: {fileID: 338524231}
+      objectReference: {fileID: 0}
     - target: {fileID: 3865129834299242975, guid: 5120bba4729ed864eb0e5d4f9cb85b04,
         type: 3}
       propertyPath: m_IsActive
@@ -14382,6 +14370,7 @@ MonoBehaviour:
   _jumpName: Jump
   _enabledCursorMode: 0
   _disabledCursorMode: 0
+  _closeFizActionName: CloseFiz
 --- !u!1 &1682139975
 GameObject:
   m_ObjectHideFlags: 0
