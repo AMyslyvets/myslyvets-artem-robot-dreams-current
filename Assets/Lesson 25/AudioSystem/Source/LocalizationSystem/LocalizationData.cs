@@ -17,7 +17,6 @@ namespace AudioSystem.LocalizationSystem
         [Serializable]
         public class LanguageEntry
         {
-            // Better name - termValues
             public string[] terms;
         }
         

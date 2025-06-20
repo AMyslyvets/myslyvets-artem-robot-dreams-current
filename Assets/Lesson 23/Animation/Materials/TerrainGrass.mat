@@ -104,5 +104,5 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.36791787, g: 0.15354106, b: 0.119742386, a: 0.2}
     - _WindDirection: {r: 0.4, g: -0.6, b: 0.25, a: 0}
-    - _WindPosition: {r: -105.82916, g: 88.1912, b: 0, a: 0}
+    - _WindPosition: {r: -279.79626, g: 233.16489, b: 0, a: 0}
   m_BuildTextureStacks: []

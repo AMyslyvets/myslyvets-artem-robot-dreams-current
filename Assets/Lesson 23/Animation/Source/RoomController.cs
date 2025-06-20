@@ -3,6 +3,7 @@ using BehaviourTreeSystem;
 using StateMachineSystem.ServiceLocatorSystem;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 namespace Animation
 {

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Lesson 1/Scenes/SampleScene 0.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Lesson 1/Scenes/New Scene.unity
@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lesson 15/MainMenu/Scenes/Gameplay.unity
     guid: 4b58fce6527d61040b38afc2a7f4a5f5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 18/StateMachine/Scenes/DefinetlyNotABoot.unity
     guid: 8e0fe552cd645f643a1bf24ad796917f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 18/StateMachine/Scenes/Lobby.unity
     guid: 5a56ebacedde0dd4a9ef15b0ef869ee3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 18/StateMachine/Scenes/StateMachine.unity
     guid: 56fb68f30b8622e47a3d63d6970b089a
   - enabled: 0
@@ -47,51 +47,300 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Lesson 20/DefendFlag/Scenes/DefendFlag.unity
     guid: 66250d2397ad7874087c7f46e63c4b91
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 21/Inventory/Scenes/Boot.unity
     guid: 07f8e7c6303ab1d4eab26f144422b181
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 21/Inventory/Scenes/Lobby.unity
     guid: 5e94eb3d9a82262448d5e6358b3b5d2a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 21/Inventory/Scenes/TrainingRange.unity
     guid: 270cd0789a76c0945aacbbd423da08c0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 21/Inventory/Scenes/DefendFlag.unity
     guid: ac09d95be2d2a2e499631ff42c24d90a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 21/Inventory/Scenes/Recon.unity
     guid: 48af629b245167544ab3803c0979b651
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 23/Animation/Scenes/Boot.unity
     guid: b1ea59665ca47ee4782231e8fa9fd1d1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 23/Animation/Scenes/Lobby.unity
     guid: 3a98b2de2f5532448a71702d35aceccf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 23/Animation/Scenes/TrainingRange.unity
     guid: 7e77461657ffa1f47a4780b2b5cd36ef
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 23/Animation/Scenes/DefendFlag.unity
     guid: 6b8b44f4319734b4283bedfa89535620
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 23/Animation/Scenes/Recon.unity
     guid: 8093588cbd455b84084721f976b30caf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 25/AudioSystem/Scenes/Lobby.unity
     guid: bbc2d759f3d041c4e9c92c9b6db4d8fa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 25/AudioSystem/Scenes/TrainingRange.unity
     guid: 48096c9abad925046804c7010e651d2c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Lesson 25/AudioSystem/Scenes/BehaviourTree.unity
     guid: 096e6538e31f9364798fd682b2c77794
   - enabled: 1
-    path: Assets/HomeWork/HomeWork/HomeWork_Lesson12/HW15/Scenes/FizLobby.unity
-    guid: 0eb0733b3e6682d4cbab094b6914ebdf
+    path: Assets/Lesson 28/XRImplementation/Scenes/Boot.unity
+    guid: 22faec6f43916c3419beb93275f8b8e9
   - enabled: 1
-    path: Assets/HomeWork/HomeWork/HomeWork_Lesson12/HW15/Scenes/Fiz.unity
-    guid: 556bce3c7387c3b4f809c22dfdf4dd3f
+    path: Assets/Lesson 28/XRImplementation/Scenes/Lobby.unity
+    guid: 55d3655504bea62468c9bf4e94227de7
+  - enabled: 1
+    path: Assets/Lesson 28/XRImplementation/Scenes/BehaviourTree.unity
+    guid: 4c3c9f08b104115459c0ee547cfe1f77
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Main.unity
+    guid: 0656ec63d0f1edc4293e3a13c15080c4
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01--01.unity
+    guid: 0b7967f882708184abb59a151b0ac201
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01--02.unity
+    guid: 94798274e1af0ea46b835d53d7ad23ba
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01--03.unity
+    guid: 772d8b02f847d08429815623ec605fbc
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01--04.unity
+    guid: baf5c6231bda32e4eb6777dd6aef3117
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01-00.unity
+    guid: 2f8bb7b2e068cee4b9cf28b284ec98df
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01-01.unity
+    guid: 11a21d8cc78381b498a92ffd525a231c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01-02.unity
+    guid: a7b81bba9ddb7f84a8916b6c710bd507
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01-03.unity
+    guid: 6bf95208c1714b143aaa9b02a78d2c3b
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-01-04.unity
+    guid: 1bf4ac717052ed9489403bf99ecd4a3c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02--01.unity
+    guid: 91e1f6e34c1498a4c93f845ba8b6af57
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02--02.unity
+    guid: c75f067846b48f24c8f8ab0ac489fcf1
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02--03.unity
+    guid: 81548dd77ca635848a7a5594e6d19e19
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02--04.unity
+    guid: 7a41327849b4ec34eb48d63ebd9f6316
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02-00.unity
+    guid: 1e7f52dae79cae44dbddd10dfd47142f
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02-01.unity
+    guid: ba8f8ae7ccdbc1e4a88dbc195cd37a21
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02-02.unity
+    guid: d41c7b9ce85c2be4ea50cf768c4ec2a8
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02-03.unity
+    guid: 4c40199d1f7179549bae99575ca09c34
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-02-04.unity
+    guid: 7f6baf006c080134d8b50c957acc00d0
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03--01.unity
+    guid: c22f0a2d771d90640b94223bc9d5f076
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03--02.unity
+    guid: 35d3a63116210cb4d9a5bc2b568e48ff
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03--03.unity
+    guid: d3ff4fce80dbc824cbf2d4f9cdf07619
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03--04.unity
+    guid: 57f0b909964769340a16db53f704e6db
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03-00.unity
+    guid: c573a156ff4b552409408a8dea890b78
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03-01.unity
+    guid: fece7581542698a43966393ae70b5eb9
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03-02.unity
+    guid: c04392f1b2ed3c9438c71be99d742bdd
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03-03.unity
+    guid: 1162da1935f38f649969055f61adb3ba
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-03-04.unity
+    guid: 0d0fb2e1733b0c14385e55e755a725e2
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04--01.unity
+    guid: 0e6b831d04f4cdc4797e238f95ee24b4
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04--02.unity
+    guid: 56c348c2bf00be346a579ae435d98883
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04--03.unity
+    guid: df7281b3d28508942b223be189abd1e5
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04--04.unity
+    guid: 7341ead0c4514d34aa184213acd9ac26
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04-00.unity
+    guid: bbf7995c6d4f8514a86900dc32aaa8f3
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04-01.unity
+    guid: 52d75dc2b46524a4f828ba6497eacca5
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04-02.unity
+    guid: abd73a8b95d112f4d910ff7aaebc953f
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04-03.unity
+    guid: 50cdc0c32062a644fa0abcd9097cb9f2
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_-04-04.unity
+    guid: e01ac4460d552f44690d5e80cdd56b9e
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00--01.unity
+    guid: 319e0c084faf1f746a644a44e8a14c9d
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00--02.unity
+    guid: 3434599f11d6fd9469a2666bc25a61a7
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00--03.unity
+    guid: 42fcb41374f570849bfa0a177eb4dc2d
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00--04.unity
+    guid: 835e1146f0583cc40ab12297a72e0104
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00-00.unity
+    guid: d0dd50ec9e1446b489159e19cd93ab13
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00-01.unity
+    guid: 48645ba3888c4c141add67bd26be7860
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00-02.unity
+    guid: 4ecf7730c9631a3459fc103e8b9e0d59
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00-03.unity
+    guid: c5b6b3585ae555b4da147de5617f6836
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_00-04.unity
+    guid: b8d2827c7d63db14db485f797a303f81
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01--01.unity
+    guid: d436e89a5c08789418b0fe7607a66925
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01--02.unity
+    guid: 8852a6d9f9d6e7f41b7d9225ece42753
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01--03.unity
+    guid: 7760f40bb94649540b85043f9a12bb47
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01--04.unity
+    guid: 2fef86afda8bc4b48b6dfc549b42f824
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01-00.unity
+    guid: 12c7389c3c7e48c4c8ee856c42d90d0c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01-01.unity
+    guid: 6242e4cf79c35714fb66c7f063a7960a
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01-02.unity
+    guid: 8c26f995b82fc304791f6586b992455b
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01-03.unity
+    guid: 32c00194085ff9045819d6b9a752710f
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_01-04.unity
+    guid: 2c45d9be907c73e43b396559b53b026d
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02--01.unity
+    guid: 5e160d219dd9cb34e86a8e309f1748c4
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02--02.unity
+    guid: 13c55c45979e22649979141665d30d20
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02--03.unity
+    guid: 3ce7e5633d4b54f49b2d8c8e70233b7c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02--04.unity
+    guid: 6ea22275908da6246b22e706e2722751
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02-00.unity
+    guid: c3644291d71c7b64c864be7c3a255b6b
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02-01.unity
+    guid: d4b4170db0ceffb4cb0dac1fd0c96133
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02-02.unity
+    guid: 1af7621c556a66546bba24c804af7e27
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02-03.unity
+    guid: 00110b5b403ed184eb87bebf7445949f
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_02-04.unity
+    guid: da90da9a6de33724395627ede57a2610
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03--01.unity
+    guid: 560b3e3ef62efb14193a783d854f6f2e
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03--02.unity
+    guid: 540c583da9df4d24fb3c2afa5d75f32a
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03--03.unity
+    guid: b62f44526f23a88409e18da9bc7ca6c8
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03--04.unity
+    guid: f3b46d2a865c64e41aea29c0df696e90
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03-00.unity
+    guid: c1bf4dcf41ca6384fa77355d4c414169
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03-01.unity
+    guid: 7758a63ceca3c5e45874ef3ac00e1669
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03-02.unity
+    guid: c4678fc96c093f14ab827fb4ae1b5424
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03-03.unity
+    guid: 4674ff5f38656ab45a4de3fa2ee6160c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_03-04.unity
+    guid: f61ea375c9b86c2478aa5da61c8af742
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04--01.unity
+    guid: 1c541263753a8c649a86dfb85f01e226
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04--02.unity
+    guid: 59290aaf5b1ddaa44934f2309fcd8529
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04--03.unity
+    guid: 616932030b82b984798f4d484b0b6f49
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04--04.unity
+    guid: 5a564bce3d618d34f8333c9425ffa5c8
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04-00.unity
+    guid: ff2beb281bac69345af56ae635cc270c
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04-01.unity
+    guid: 2bc876790ed8f0e4d988e3e425b9ab8d
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04-02.unity
+    guid: f845be066151c85479c74b8a624008e2
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04-03.unity
+    guid: 2c751b0c05d03244b8858240c658e1dc
+  - enabled: 1
+    path: Assets/Lesson 34/Scenes/Parts/Scene_04-04.unity
+    guid: 9a5170556fda3904390f68d6f39d572c
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 2032b133dae6d3845a32d808b8635d3f,
       type: 2}

@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,7 +17,7 @@ namespace MiniMap
         [SerializeField] private Transform _content;
 
         private Image[] _minimapMarkers;
-        
+
         private void Start()
         {
             _minimapMarkers = new Image[_markers.Length];
@@ -49,21 +48,24 @@ namespace MiniMap
             float normX = Mathf.InverseLerp(_worldMin.x, _worldMax.x, worldPos.x);
             float normY = Mathf.InverseLerp(_worldMin.y, _worldMax.y, worldPos.z);
 
-            Vector2 uv = new Vector2(normX, normY);
+            Vector2 uv = new(normX, normY);
             Vector2 offset = uv - _tiling * 0.5f;
 
             _rawImage.uvRect = new Rect(offset, _tiling);
         }
-        
+
         public Vector2 GetWorldPositionOnMap(Vector3 worldPos)
         {
-            worldPos -= _playerTransform.position;
-            float normX = Mathf.InverseLerp(_worldMin.x, _worldMax.x, worldPos.x);
-            float normY = Mathf.InverseLerp(_worldMin.y, _worldMax.y, worldPos.z);
+            worldPos = worldPos - _playerTransform.position;
+            Vector2 worldSize = _worldMax - _worldMin;
+
+            float normX = Mathf.InverseLerp(-worldSize.x, worldSize.x, worldPos.x);
+            float normY = Mathf.InverseLerp(-worldSize.y, worldSize.y, worldPos.z);
 
             Vector2 position;
             position.x = Mathf.Lerp(_mapMin.x, _mapMax.x, normX);
             position.y = Mathf.Lerp(_mapMin.y, _mapMax.y, normY);
+
             return position;
         }
     }

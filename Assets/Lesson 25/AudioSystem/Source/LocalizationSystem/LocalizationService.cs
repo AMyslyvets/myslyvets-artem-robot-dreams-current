@@ -21,7 +21,7 @@ namespace AudioSystem.LocalizationSystem
         // In localization data, terms are stored in raw form, in order to edit
         // In service, data will be cached into dictionaries, in order to avoid constant searches
         private Dictionary<string, Dictionary<string, string>> _localizationLookup = new();
-        private Dictionary<string, string> _currentTermsLookup;
+        private Dictionary<string, string> _currentTermsLookup = new();
         
         private ISaveService _saveService;
         

@@ -1,7 +1,9 @@
 using System;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.XR;
 
 namespace XRSetup
 {
@@ -25,10 +27,9 @@ namespace XRSetup
         private void LateUpdate()
         {
             Quaternion cameraRotationOffset = _lookAround.ReadValue<Quaternion>();
-            //_cameraTransform.localRotation = cameraRotationOffset;
+            _cameraTransform.localRotation = cameraRotationOffset;
             Vector3 cameraPosition = _cameraMove.ReadValue<Vector3>();
-            //_cameraTransform.localPosition = cameraPosition;
-            _cameraTransform.SetLocalPositionAndRotation(cameraPosition, cameraRotationOffset);
+            _cameraTransform.localPosition = cameraPosition;
         }
 
         private void BreakHandler(InputAction.CallbackContext context)

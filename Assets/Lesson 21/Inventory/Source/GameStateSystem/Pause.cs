@@ -1,6 +1,5 @@
 using Inventory.Lobby;
 using StateMachineSystem;
-using StateMachineSystem.SceneManagement;
 using StateMachineSystem.ServiceLocatorSystem;
 using UnityEngine;
 
@@ -11,7 +10,7 @@ namespace Inventory.GameStateSystem
         private const float FIXED_TIMESTEP = 0.02f;
         private const float REGULAR_TIMESCALE = 1f;
         private const float PAUSE_TIMESCALE = 0.0625f;
-        
+
         public Pause(StateMachine stateMachine, byte stateId, ISceneService sceneService) : base(stateMachine, stateId, sceneService)
         {
         }

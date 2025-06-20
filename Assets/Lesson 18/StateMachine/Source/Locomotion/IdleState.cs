@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using StateMachineSystem.ServiceLocatorSystem;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace StateMachineSystem.Locomotion
@@ -8,25 +8,25 @@ namespace StateMachineSystem.Locomotion
     {
         private readonly CharacterController _characterController;
         private Vector3 _localDirection;
-        
-        private bool _grounded;
-        
-        private InputController _inputController;
-        
+
+        private readonly bool _grounded;
+
+        private readonly InputController _inputController;
+
         public IdleState(StateMachine stateMachine,
             byte stateId,
             CharacterController characterController) : base(stateMachine, stateId)
         {
             _characterController = characterController;
-            
+
             conditions = new List<IStateCondition>
             {
                 new BaseCondition((byte)LocomotionState.Movement, IsMoving),
                 new BaseCondition((byte)LocomotionState.Fall, IsFalling)
             };
-            
+
             _inputController = ServiceLocator.Instance.GetService<InputController>();
-            
+
             _inputController.OnMoveInput += MoveHandler;
         }
 
@@ -50,7 +50,7 @@ namespace StateMachineSystem.Locomotion
         {
             return !Mathf.Approximately(_localDirection.sqrMagnitude, 0f);
         }
-        
+
         private bool IsFalling()
         {
             return !_characterController.isGrounded;
